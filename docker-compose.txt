@@ -9,3 +9,12 @@ Exercise:
   4. copy 'Dockerfile' to dir 'compose-tutorial'
   5. copy 'docker-compose.yml' to dir 'compose-tutorial'
   6. Create the file 'requirements.txt' in your project directory and paste the following code in:
+
+  Compose the images and fire up the app:
+  7. docker compose up
+  
+  List the images:
+  8. docker image ls (web and redis should appear)
+  List all images
+  9. docker compose images (lists only the composed images)
+  10. docker-compose stop

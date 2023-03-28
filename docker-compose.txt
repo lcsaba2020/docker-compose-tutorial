@@ -18,3 +18,12 @@ Exercise:
   List all images
   9. docker compose images (lists only the composed images)
   10. docker-compose stop
+
+  11. docker compose up -d (start the containers in the background as daemon)
+  
+  12. docker compose run <service name(e.g. web, redis)> env  
+  
+  13. docker compose down (clear containers)
+  
+  14. docker compose down --volumes (clear containers and associates data volumes (redis))
+      

@@ -1,1 +1,11 @@
 Docker compose get installed automatically with Docker Desktop.
+run > docker compose version
+
+
+Exercise:
+  1. create 'compose-tutorial' as your working directory
+  2. cd compose-tutorial
+  3. copy the file 'app.py' to dir 'compose-tutorial'
+  4. copy 'Dockerfile' to dir 'compose-tutorial'
+  5. copy 'docker-compose.yml' to dir 'compose-tutorial'
+  6. Create the file 'requirements.txt' in your project directory and paste the following code in:

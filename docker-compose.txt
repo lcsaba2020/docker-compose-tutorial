@@ -1,0 +1,1 @@
+Docker compose get installed automatically with Docker Desktop.

@@ -1,0 +1,11 @@
+1. Create a multicontainer app using Spring Boot as service layer connecting to a MySql database.
+2. Implement some CRUD operations using REST Services
+3. The FrontEnd must not necessarily be a web framework. To trigger CRUD operations towards a service one can use for example the Postman API platform
+  E.g. for adding new users POST the following JSON string to the URL:
+      { 
+        "id": 3,
+        "firstName": "john",
+        "lastName":"mueller",
+        "email": "fm@gmail.com"
+      }
+  4. As a model for docker-compose.yml you can take a look at the docker-compose-springboot-mysql.yml file and adapt it to your need accordingly

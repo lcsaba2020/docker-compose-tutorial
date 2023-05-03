@@ -1,0 +1,4 @@
+Create an EC2 instance
+launch the docker compose on 'docker-compose-postgres.yml'
+review the security group inbound rules
+test the url in the browser or postman
